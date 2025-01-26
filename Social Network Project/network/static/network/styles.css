@@ -1,0 +1,87 @@
+
+#post-view {
+    margin:30px;
+    border: 1px solid rgb(143, 64, 240);
+    height:130px;
+    background-color: rgb(224, 224, 248);
+    border-radius: 5px;
+}
+
+#submit {
+    position: absolute;
+    right: 30px;
+    margin-right:10px;
+    border: 1px solid rgb(143, 64, 240);
+    background-color:  rgb(143, 64, 240);
+
+}
+
+.form-control:focus {
+    border-color: #7428a7;
+    box-shadow: 0 0 0 0.2rem rgb(218, 188, 255);
+} 
+
+#post-form {
+    height:100px;
+    margin-left:10px;
+    margin-top: 10px;
+    margin-right:10px;
+}
+
+
+.likedata {
+    position: absolute;
+    right: 30px;
+}
+
+
+#posts-view {
+    margin:30px;
+}
+
+
+
+#profile-view {
+    margin:30px;
+    border: 1px solid rgb(180, 180, 180);
+    height:130px;
+}
+
+
+#nameb.bio {
+    font-size:20px;
+    font-weight:bold;
+    margin:10px;
+   
+}
+
+
+
+#bio_followers.bio_followers {
+    margin:10px;
+}
+
+#bio_following.bio_following {
+    margin:10px;
+}
+
+
+#followb.bio {
+    position:relative;
+}
+
+#follow.btn.btn-primary {
+    position:absolute;
+    right:5px;
+    top:-100px;
+    border: 1px solid rgb(143, 64, 240);
+    background-color:  rgb(143, 64, 240);
+    color:#ffffff
+}
+
+
+#follow.btn.btn-secondary {
+    position:absolute;
+    right:5px;
+    top:-100px;
+}

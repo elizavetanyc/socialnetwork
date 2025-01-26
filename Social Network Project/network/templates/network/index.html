@@ -1,0 +1,35 @@
+{% extends "network/layout.html" %}
+{% load static %}
+{% block body %}
+{{ request.user.id|json_script:"author_id" }}
+{{ request.user.username|json_script:"author_username" }}
+
+<div id="post-view" class="post-view">
+    <form id="post-form">
+        <textarea class="form-control" id="post-body" placeholder="What's Happening?"></textarea>
+        <h1></h1>
+        <input id="submit" type="submit" class="btn btn-primary">
+    </form>
+</div>
+
+<div id="profile-view">
+    
+</div>
+
+
+<div id="posts-view">
+      
+
+
+
+</div>
+
+
+
+
+<div id="edit-view">
+      
+</div>
+
+{% endblock %}
+
